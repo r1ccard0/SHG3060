@@ -14,7 +14,7 @@ No device-specific keys, configuration backups, passwords, SIP credentials, or f
 
 ## Root shell through the stock CLI
 
-The [earlier root-access guide](../Root/README.md) says a modified firmware is needed to enable the Linux shell. On the tested 09d unit, the existing administrator SSH session was enough to change the Linux configuration node `Device.X_VODAFONE_Management.ShellEnable`. This requires administrator access to the router first; it is not a way to obtain that access.
+The [root-access guide](../Root/README.md) explains how to obtain administrator SSH access. On the tested 09d unit, that existing SSH session was enough to change the Linux configuration node `Device.X_VODAFONE_Management.ShellEnable`. This requires administrator access to the router first; it is not a way to obtain that access.
 
 From the `view @ SHG3060>` SSH prompt, enter configuration mode and inspect the flag:
 
